@@ -4,7 +4,7 @@
 
 A repo for the introductory OpenFOAM case in "Introduction to Reservoir Engineering with OpenFAOM" course.
 
-### What this OpenFOAM case aims for?
+### Objectives of this OpenFOAM case
 
 - Introduce basic OpenFOAM concepts.
 - Introduce PyFOAM *as a library* to run cases in a scriptable way.
@@ -15,8 +15,8 @@ The repo holds tagged commits to different stages of preparing and running the s
 
 ###  Stage 01, Git Tag: meshingStage
 
-- The case a copy of a standard tutorial
-- Only the *mesh* has been modified to suit the problem's requirement
+- The case is a copy of a standard tutorial
+- Only the *mesh* has been modified to suit the problem's requirements
 
 ### Stage 02, Git Tag: ICsBCsConfigured
 
