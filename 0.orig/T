@@ -28,20 +28,11 @@ boundaryField
 
     outlet
     {
-        type            zeroGradient;
+        type            fixedValue;
+        value           uniform 0;
     }
 
-    upperWall
-    {
-        type            zeroGradient;
-    }
-
-    lowerWall
-    {
-        type            zeroGradient;
-    }
-
-    frontAndBack
+    noFlow
     {
         type            empty;
     }
