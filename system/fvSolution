@@ -19,9 +19,9 @@ solvers
 {
     T
     {
-        solver          BiCGStab;
-        preconditioner  DILU;
-        tolerance       1e-06;
+        solver          smoothSolver;
+        smoother        GaussSeidel;
+        tolerance       1e-3;
         relTol          0;
     }
 }
