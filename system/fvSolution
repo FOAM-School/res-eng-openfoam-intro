@@ -21,8 +21,9 @@ solvers
     {
         solver          smoothSolver;
         smoother        GaussSeidel;
-        tolerance       1e-3;
+        tolerance       1;
         relTol          0;
+        maxIter         1;
     }
 }
 
