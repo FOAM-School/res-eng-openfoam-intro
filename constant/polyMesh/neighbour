@@ -9,28 +9,13 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       dictionary;
-    location    "system";
-    object      fvSolution;
+    class       labelList;
+    note        "nPoints: 40 nCells: 9 nFaces: 46 nInternalFaces: 8";
+    location    "constant/polyMesh";
+    object      neighbour;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-solvers
-{
-    T
-    {
-        solver          smoothSolver;
-        smoother        GaussSeidel;
-        tolerance       0;
-        relTol          0;
-        maxIter         1;
-    }
-}
-
-SIMPLE
-{
-    nNonOrthogonalCorrectors 0;
-}
-
+8(1 2 3 4 5 6 7 8)
 
 // ************************************************************************* //
