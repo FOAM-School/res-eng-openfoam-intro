@@ -19,11 +19,10 @@ solvers
 {
     T
     {
-        solver          smoothSolver;
-        smoother        GaussSeidel;
-        tolerance       0;
-        relTol          0;
-        maxIter         1;
+        solver          PBiCG;
+		preconditioner  DILU;
+        tolerance       1e-8;
+        relTol          0.0;
     }
 }
 

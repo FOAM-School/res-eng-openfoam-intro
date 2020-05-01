@@ -21,19 +21,19 @@ FoamFile
     {
         type            patch;
         nFaces          1;
-        startFace       8;
+        startFace       99;
     }
     outlet
     {
         type            patch;
         nFaces          1;
-        startFace       9;
+        startFace       100;
     }
     noFlow
     {
         type            empty;
-        nFaces          36;
-        startFace       10;
+        nFaces          400;
+        startFace       101;
     }
 )
 
