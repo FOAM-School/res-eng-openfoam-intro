@@ -15,25 +15,31 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-3
+4
 (
     inlet
     {
         type            patch;
-        nFaces          1;
-        startFace       99;
+        nFaces          100;
+        startFace       19800;
     }
     outlet
     {
         type            patch;
-        nFaces          1;
-        startFace       100;
+        nFaces          100;
+        startFace       19900;
+    }
+    topAndBottom
+    {
+        type            patch;
+        nFaces          200;
+        startFace       20000;
     }
     noFlow
     {
         type            empty;
-        nFaces          400;
-        startFace       101;
+        nFaces          20000;
+        startFace       20200;
     }
 )
 
